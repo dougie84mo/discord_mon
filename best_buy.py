@@ -41,10 +41,6 @@ with open('assets/discord_config.json') as discord_config:
                     elif counter < 1:
                         await channel.send(product["addToCartUrl"])
                         counter = counter + 1
-
-
-
-
                     pprint(product)
 
             await asyncio.sleep(5)
@@ -59,7 +55,3 @@ with open('assets/discord_config.json') as discord_config:
 
     client.loop.create_task(product_status())
     client.run(TOKEN)
-
-
-
-
