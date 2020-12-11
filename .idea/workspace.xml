@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2a5e39c9-bec0-45ea-a018-287e4a509eca" name="Default Changelist" comment="Working best buy monitor for api. Sends message for testing and if products are available, trying to get origin to work on PyCharm">
+      <change afterPath="$PROJECT_DIR$/assets/bot_config/example/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/bots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/best_buy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/best_buy0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/playstation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bots/tesla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/discord_hooks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/best_buy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JupyterTrust" id="b3a55ad9-86bb-4d66-95a0-c725622e832d" />
+  <component name="ProjectId" id="1inifG2KoxHxkOV7IRJ1RzoaUXB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bots" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bots" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/assets/bots" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bots" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/vendor" />
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.best_buy">
+    <configuration name="best_buy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="discorderbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bots" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bots/best_buy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="discorderbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sessions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="discorderbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/.local/lib/python3.8/site-packages/requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/.local/lib/python3.8/site-packages/requests/sessions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="discorderbot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.best_buy" />
+        <item itemvalue="Python.utils" />
+        <item itemvalue="Python.best_buy" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.best_buy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a5e39c9-bec0-45ea-a018-287e4a509eca" name="Default Changelist" comment="" />
+      <created>1602549857821</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602549857821</updated>
+      <workItem from="1602549858860" duration="31067000" />
+      <workItem from="1602991039974" duration="1443000" />
+      <workItem from="1603236163946" duration="2421000" />
+      <workItem from="1603244286204" duration="33243000" />
+      <workItem from="1606092329114" duration="23070000" />
+      <workItem from="1607474235267" duration="11511000" />
+    </task>
+    <task id="LOCAL-00001" summary="Working best buy monitor for api. Sends message for testing and if products are available">
+      <created>1602991152313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602991152313</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Working best buy monitor for api. Sends message for testing and if products are available">
+      <created>1602992524272</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602992524272</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Working best buy monitor for api. Sends message for testing and if products are available, trying to get origin to work on PyCharm">
+      <created>1603236210615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603236210615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Working best buy monitor for api. Sends message for testing and if products are available" />
+    <MESSAGE value="Working best buy monitor for api. Sends message for testing and if products are available, trying to get origin to work on PyCharm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working best buy monitor for api. Sends message for testing and if products are available, trying to get origin to work on PyCharm" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="430" y="281" key="#Notifications" timestamp="1603236307849">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="430" y="281" key="#Notifications/0.0.1440.900@0.0.1440.900" timestamp="1603236307849" />
+    <state x="-1210" y="313" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1604717635976">
+      <screen x="-1920" y="-70" width="1920" height="1080" />
+    </state>
+    <state x="-1210" y="313" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/-1920.-70.1920.1080/0.0.1440.900@-1920.-70.1920.1080" timestamp="1604717635976" />
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607474118889">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1607474118889" />
+    <state x="287" y="34" key="CommitChangelistDialog2" timestamp="1602991865696">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="287" y="34" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1602991865696" />
+    <state width="355" height="982" key="GridCell.Tab.0.bottom" timestamp="1606092289827">
+      <screen x="-1231" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="355" height="982" key="GridCell.Tab.0.bottom/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605229427277" />
+    <state width="355" height="982" key="GridCell.Tab.0.bottom/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@780.-1080.1920.1080" timestamp="1605307766299" />
+    <state width="620" height="982" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/1440.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1604969370268" />
+    <state width="670" height="982" key="GridCell.Tab.0.bottom/-1920.0.1920.1080/1440.23.1920.1057/0.23.1440.877@-1920.0.1920.1080" timestamp="1604967257768" />
+    <state width="465" height="802" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604448754028" />
+    <state width="670" height="982" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1604453286056" />
+    <state width="355" height="982" key="GridCell.Tab.0.bottom/689.-1080.1920.1080/-1231.-1080.1920.1080/0.0.1440.900@-1231.-1080.1920.1080" timestamp="1606092289827" />
+    <state width="355" height="982" key="GridCell.Tab.0.center" timestamp="1606092289825">
+      <screen x="-1231" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="355" height="982" key="GridCell.Tab.0.center/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605229427276" />
+    <state width="355" height="982" key="GridCell.Tab.0.center/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@780.-1080.1920.1080" timestamp="1605307766298" />
+    <state width="620" height="982" key="GridCell.Tab.0.center/-1920.0.1920.1080/1440.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1604969370266" />
+    <state width="670" height="982" key="GridCell.Tab.0.center/-1920.0.1920.1080/1440.23.1920.1057/0.23.1440.877@-1920.0.1920.1080" timestamp="1604967257766" />
+    <state width="465" height="802" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604448754027" />
+    <state width="670" height="982" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1604453286055" />
+    <state width="355" height="982" key="GridCell.Tab.0.center/689.-1080.1920.1080/-1231.-1080.1920.1080/0.0.1440.900@-1231.-1080.1920.1080" timestamp="1606092289825" />
+    <state width="355" height="982" key="GridCell.Tab.0.left" timestamp="1606092289824">
+      <screen x="-1231" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="355" height="982" key="GridCell.Tab.0.left/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605229427275" />
+    <state width="355" height="982" key="GridCell.Tab.0.left/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@780.-1080.1920.1080" timestamp="1605307766297" />
+    <state width="620" height="982" key="GridCell.Tab.0.left/-1920.0.1920.1080/1440.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1604969370265" />
+    <state width="670" height="982" key="GridCell.Tab.0.left/-1920.0.1920.1080/1440.23.1920.1057/0.23.1440.877@-1920.0.1920.1080" timestamp="1604967257765" />
+    <state width="465" height="802" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604448754026" />
+    <state width="670" height="982" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1604453286054" />
+    <state width="355" height="982" key="GridCell.Tab.0.left/689.-1080.1920.1080/-1231.-1080.1920.1080/0.0.1440.900@-1231.-1080.1920.1080" timestamp="1606092289824" />
+    <state width="355" height="982" key="GridCell.Tab.0.right" timestamp="1606092289826">
+      <screen x="-1231" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="355" height="982" key="GridCell.Tab.0.right/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605229427276" />
+    <state width="355" height="982" key="GridCell.Tab.0.right/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@780.-1080.1920.1080" timestamp="1605307766298" />
+    <state width="620" height="982" key="GridCell.Tab.0.right/-1920.0.1920.1080/1440.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1604969370267" />
+    <state width="670" height="982" key="GridCell.Tab.0.right/-1920.0.1920.1080/1440.23.1920.1057/0.23.1440.877@-1920.0.1920.1080" timestamp="1604967257767" />
+    <state width="465" height="802" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604448754027" />
+    <state width="670" height="982" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@1440.0.1920.1080" timestamp="1604453286056" />
+    <state width="355" height="982" key="GridCell.Tab.0.right/689.-1080.1920.1080/-1231.-1080.1920.1080/0.0.1440.900@-1231.-1080.1920.1080" timestamp="1606092289826" />
+    <state x="-1625" y="10" key="SettingsEditor" timestamp="1606884509328">
+      <screen x="-1920" y="-97" width="1920" height="1080" />
+    </state>
+    <state x="-845" y="-973" key="SettingsEditor/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605226360182" />
+    <state x="-1625" y="37" key="SettingsEditor/-1920.-70.1920.1080/0.0.1440.900@-1920.-70.1920.1080" timestamp="1604717293652" />
+    <state x="-1625" y="37" key="SettingsEditor/-1920.-70.1920.1080/0.23.1440.877@-1920.-70.1920.1080" timestamp="1604717518708" />
+    <state x="-1625" y="10" key="SettingsEditor/-1920.-97.1920.1080/0.0.1440.900@-1920.-97.1920.1080" timestamp="1606884509328" />
+    <state x="-1625" y="107" key="SettingsEditor/-1920.0.1920.1080/1440.23.1920.1057/0.23.1440.877@-1920.0.1920.1080" timestamp="1604967302306" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1602992430388" />
+    <state x="1735" y="107" key="SettingsEditor/1440.0.1920.1080/0.23.1440.877@1440.0.1920.1080" timestamp="1604715902815" />
+    <state x="-936" y="-973" key="SettingsEditor/689.-1080.1920.1080/-1231.-1080.1920.1080/0.0.1440.900@-1231.-1080.1920.1080" timestamp="1605750644318" />
+    <state x="-845" y="-973" key="SettingsEditor/780.-1080.1920.1080/-1140.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605313850437" />
+    <state width="500" height="447" key="SwitcherDM" timestamp="1606885643561">
+      <screen x="-1920" y="-97" width="1920" height="1080" />
+    </state>
+    <state width="500" height="447" key="SwitcherDM/-1920.-97.1920.1080/0.0.1440.900@-1920.-97.1920.1080" timestamp="1606885643561" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1603237086250">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1603237086250" />
+    <state x="-1229" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606883925540">
+      <screen x="-1920" y="-97" width="1920" height="1080" />
+    </state>
+    <state x="-1229" y="348" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-97.1920.1080/0.0.1440.900@-1920.-97.1920.1080" timestamp="1606883925540" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1602992302254" />
+    <state x="-1143" y="0" width="594" height="1080" key="dock-window-1" timestamp="1604968682570">
+      <screen x="-1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-1143" y="0" width="594" height="1080" key="dock-window-1/-1920.0.1920.1080/1440.0.1920.1080/0.0.1440.900@-1920.0.1920.1080" timestamp="1604968682570" />
+    <state x="1405" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1605308525229">
+      <screen x="780" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="1405" y="-839" width="670" height="676" key="search.everywhere.popup/-1140.-1057.1920.1057/780.-1080.1920.1080/0.23.1440.877@780.-1080.1920.1080" timestamp="1605308525229" />
+    <state x="-515" y="-839" width="670" height="676" key="search.everywhere.popup/-1140.-1080.1920.1080/780.-1080.1920.1080/0.0.1440.900@-1140.-1080.1920.1080" timestamp="1605230751003" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/discorderbot$main.coverage" NAME="main Coverage Results" MODIFIED="1607487341680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/discorderbot$best_buy.coverage" NAME="best_buy Coverage Results" MODIFIED="1605307766275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

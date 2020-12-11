@@ -1,0 +1,37 @@
+{
+  "tokens": [],
+   "structure": {
+    "id": "",
+    "type": "",
+    "name": "string",
+    "channel_id": "",
+    "token": ""
+  },
+  "webhook_types": {
+    "1": "Incoming",
+    "2": "Channel Follower"
+  },
+  "user": {
+    "username": ""
+  },
+  "bots": {
+    "best_buy": {
+      "url": "https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440",
+      "base_url": "https://www.bestbuy.com/",
+      "key": "rwstjfgGb9GwAXRPkKi5OW40",
+      "urls":   {
+        "products": "https://api.bestbuy.com/v1/products",
+        "categories": "https://api.bestbuy.com/v1/categories",
+        "stores": "https://api.bestbuy.com/v1/stores",
+        "format": "?format=json&show=name"
+      },
+      "skus": [
+        6429440
+      ],
+      "channels": {
+        "best_buy": 766445977723732018
+      },
+      "status": "Looking for Tech"
+    }
+  }
+}
