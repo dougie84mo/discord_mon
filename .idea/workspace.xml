@@ -6,17 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a5e39c9-bec0-45ea-a018-287e4a509eca" name="Default Changelist" comment="Working best buy monitor for api. Sends message for testing and if products are available, trying to get origin to work on PyCharm">
-      <change afterPath="$PROJECT_DIR$/assets/bot_config/example/example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/bots.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/best_buy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/best_buy0.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/playstation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bots/tesla.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/discord_hooks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/best_buy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bots/playstation.py" beforeDir="false" afterPath="$PROJECT_DIR$/bots/playstation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +177,7 @@
       <workItem from="1603236163946" duration="2421000" />
       <workItem from="1603244286204" duration="33243000" />
       <workItem from="1606092329114" duration="23070000" />
-      <workItem from="1607474235267" duration="11511000" />
+      <workItem from="1607474235267" duration="12789000" />
     </task>
     <task id="LOCAL-00001" summary="Working best buy monitor for api. Sends message for testing and if products are available">
       <created>1602991152313</created>

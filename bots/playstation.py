@@ -7,7 +7,8 @@ class Playstation(BaseBot):
     _bot_name = "playstation"
 
     def monitor(self):
-        
+        #monitor playstation
+
 
 
 
