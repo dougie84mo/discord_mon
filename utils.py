@@ -1,39 +1,11 @@
 from bs4 import BeautifulSoup
-import requests
-import discord
-from discord.ext import commands, tasks
-from itertools import cycle
-import json
+import requests, json, csv, os
 from pprint import pprint
 import threading
+import concurrent.futures
 from vendor.discord_hooks import Webhook
 
-
-
-# Create a bot class late has internal function for bot
-
 # helpers for discord
-
-
-class BaseBot:
-    _bot_name=""
-    __multi_thread=False
-
-    def __init__(self, hook, multi_thread=None):
-        self._hook = hook
-        with open('assets/bots.json') as bot_info:
-            bots = json.load(bot_info)
-            self._info = bots[self._bot_name]
-
-        if multi_thread is True:
-            self.__multi_thread = True
-
-    def monitor(self):
-        pass
-
-
-
-
 
 class DiscordHelper:
 
@@ -62,36 +34,129 @@ class DiscordHelper:
         embed.post()
 
 
-class BotHelper:
+# Create a bot class late has internal function for bot
+
+class BaseBot:
+    __bot_name = ""
+
+    def __init__(self, info):
+
+        self._info = info
+        if "webhook" in info:
+            self._hook = info["webhook"]
+
+        #add key token in here
+
+    def _load_proxli(self):
+        return []
+
+
+    def __monitor(self, **kwargs):
+        pass
+
+
+    def __monitor_urls(self, **kwargs):
+        return None
+
+    def _get_product_ids(self):
+        if "skus" in self._info:
+            return self._info["skus"]
 
     @staticmethod
-    def user_agents():
-        return [
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36"
-            ""
-        ]
+    def json_monitor_response(url, discord_hook=None):
+        r = requests.get(url)
+        pprint(r.status_code)
+        if discord_hook is not None and r.status_code != 200:
+            DiscordHelper.discordup(discord_hook, "Should through exception and not",
+                                    "DEVON THE BOT STOPPED WORKING, COME REFRESH ME",
+                                    "Other URL")
+        jsonstring = r.text
+        return json.loads(jsonstring)
+
+
+
+
+
+class BotLoader:
+
+    def __init__(self):
+        with open('assets/bots.json') as bot_info:
+            self._bot_init_info = json.load(bot_info)
+            self._bot_init = self._bot_init_info
+
+
+    def save_bot_json(self, new_info):
+        tmp_file = open("assets/bots.json", "w")
+        json.dump(self._bot_init_info, tmp_file)
+        tmp_file.close()
+
+
+    def load(self):
+        payload = input("What bots would you like to run?")
+        # accepts comma seperated bots
+        # accepts strings "all" and "test"
+        spayload = payload.split(",|, ")
+        pay_str = spayload.pop(0)
+        bots_running = []
+        if len(spayload) == 0:
+            if pay_str == "all" or pay_str == "test":
+                for bot_name, bot_info in self._bot_init_info:
+                    Name = bot_name.title().replace('_', '')
+                    # call instance of class:
+                    # multi-process
+
+    @staticmethod
+    def update_proxy_list():
+        # updated with split lines method
+        with open('bot_config/eproxy.txt', 'r') as proxx:
+            proxx = proxx.read().splitlines()
+            PROXYLIST = [BotLoader.imp_proxy_format(p) for p in proxx if p.strip() != '']
+
+
+        print("You have entered {} proxies".format(len(PROXYLIST)))
 
 
     @staticmethod
-    def bot_page_monitor():
-        return {
-            "tesla": "",
-            "best_buy": "",
-        }
-
+    def imp_proxy_format(px):
+        p = px.strip().split(":", 2)
+        p2 = ":".join([p[0], p[1]])
+        return "@".join([p[2], p2])
 
     @staticmethod
-    def bot_api_monitor(mon_arg, key=None):
+    def toggle_proxy_format(proxy_str):
+        # proxy_str = proxy_str.strip()
+        try:
+            # if the sting is
+            p0 = proxy_str[0]
+            if p0.isnumeric():
+                # takes import format 91.149.237.216:65112:fqtcyvi9tqm:n5w288bvcx8
+                # to web or final format fqtcyvi9tqm:n5w288bvcx8@91.149.237.216:65112
+                p = proxy_str.split(":", 2)
+                p2 = ":".join([p[0], p[1]])
+                return "@".join([p[2], p2])
+            elif p0.isalpha():
+                print(True)
+                # takes import format fqtcyvi9tqm:n5w288bvcx8@91.149.237.216:65112
+                # to web or final format 91.149.237.216:65112:fqtcyvi9tqm:n5w288bvcx8
+                j = proxy_str.split("@")
+                return ':'.join([j[1], j[0]])
 
-        if key is None:
-            url_monitors = {}
-            if 2 in mon_arg:
-                url_monitors.update({
-                    "best_buy": f"{mon_arg[0]}{mon_arg[1]}.json?show=name,sku,onlineAvailability,addToCartUrl&apiKey={mon_arg[2]}"
-                 })
-            elif 1 in mon_arg:
-                url_monitors.update({
-                    "tesla": f"{mon_arg[0]}{mon_arg[1]}"
-                })
+        except:
+            print("Import string is not correct proxy format")
+            # TODO: Exception so script prompts funcitionality "developer should chck what is going on"
 
-            return
+
+if __name__ == '__main__':
+    input_command = input("Input Command")
+
+    if input_command == 'iproxy':
+        BotLoader.update_proxy_list()
+
+    # test_str = "91.149.237.216:65112:fqtcyvi9tqm:n5w288bvcx8"
+    # web_version = BotHelper.toggle_proxy_format(test_str)
+    # print(f'Web Version: {web_version}')
+    # proxy_storage = BotHelper.toggle_proxy_format(web_version)
+    # print(f'Proxy: {proxy_storage}')
+    # pprint(proxy_storage == test_str)
+    #
+    # BotLoader.load()
